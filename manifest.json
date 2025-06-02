@@ -1,6 +1,6 @@
 {
-    "name": "flutter_demo_1",
-    "short_name": "flutter_demo_1",
+    "name": "flutter_zambook",
+    "short_name": "flutter_zambook",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

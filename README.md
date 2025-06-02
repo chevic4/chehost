@@ -1,1 +1,1 @@
-readme
+flutter build web --base-href /chehost/
