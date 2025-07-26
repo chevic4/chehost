@@ -3,61 +3,63 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "0787c08d9008ded9dcbfc03a69fb0756",
-"version.json": "b9106a174e540fdff79e429cf52bd493",
-"index.html": "5e5beefe8212d18676b0612b2c7284ca",
-"/": "5e5beefe8212d18676b0612b2c7284ca",
-"main.dart.js": "6cca3f71f537f5d08f5db9733881aec5",
-"flutter.js": "83d881c1dbb6d6bcd6b42e274605b69c",
-"favicon.png": "a28cd77663bc75fb6a311e7520b42ca3",
-"icons/Icon-192.png": "c7995f92b2ae05c705c138a753141192",
-"icons/Icon-maskable-192.png": "c7995f92b2ae05c705c138a753141192",
-"icons/Icon-maskable-512.png": "eb72ad69b8cb4e54ff52e8517ff254e7",
-"icons/Icon-512.png": "eb72ad69b8cb4e54ff52e8517ff254e7",
-"manifest.json": "c768b19dbe8da1aaf813499295c2c21d",
-"assets/AssetManifest.json": "2b697739566a68c44cd1696e1d6cbc44",
-"assets/NOTICES": "ed5b9d186e4e090adb61908c0cd71b52",
-"assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/AssetManifest.bin.json": "c9ebd39a3e3d12b2b36846aaaf0ce083",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "825e75415ebd366b740bb49659d7a5c6",
-"assets/packages/flutter_map/lib/assets/flutter_map_logo.png": "208d63cc917af9713fc9572bd5c09362",
-"assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
-"assets/AssetManifest.bin": "1f301a2a9ded9d1a9c1e6facad179f32",
-"assets/fonts/MaterialIcons-Regular.otf": "c90baa199ff43e38d053a12e507f858e",
-"assets/assets/teams_logo/team_logo.png": "f8d693ff3fe78191a6320a65b55ce878",
-"assets/assets/teams_logo/vepr.png": "21589ca74f33e9754ab3caa47c6883da",
-"assets/assets/teams_logo/Setun.png": "aed749b9205a30e68926696c310cf6cb",
-"assets/assets/teams_logo/grom%2520.png": "4dd74854136e6c7b4a031878990c4cc5",
-"assets/assets/teams_logo/knights.jpg": "4b26ac037f777ae5cd686f39eb59a65b",
-"assets/assets/arena_logo/reutovarena.jpg": "782ffa09cfcbe7ac25305d2d8753cc11",
-"assets/assets/arena_logo/kolomna.jpg": "0273723000b690d4d9cd44d8765d8c5e",
-"assets/assets/arena_logo/vershina.jpg": "6afa17d7258a33064bb6557bb4602b12",
-"assets/assets/arena_logo/salut.jpg": "96408f80107753d6829e9964909a69db",
-"assets/assets/arena_logo/arena.png": "095ea6e4fb0956e2d63e89cc122c5f1f",
-"assets/assets/arena_logo/sporttex.jpg": "4d7a5109f9e6ebc6724890ca4954b15f",
-"assets/assets/arena_logo/umka.jpg": "33c93fdc9e325fa5c0c933e5a396445a",
-"assets/assets/hockey_puck/puck_128_w.png": "1c5a7248a4d9b7a02bcf4088a91cb17e",
-"assets/assets/hockey_puck/puck48_w.png": "7755db529512b7ba66fd853537b5405f",
-"assets/assets/hockey_puck/puck48_b.png": "7cfbc87745f6b154a666d7b0bb6b4287",
-"assets/assets/hockey_puck/puck128_b.png": "387a80acfe4073063cc0799da16bfcca",
-"assets/assets/translations/ru.json": "d92d82ef8c32008e10733c2c7e3e1f5e",
-"assets/assets/translations/en.json": "c81843c0ad659d76b1efbe298f4bbf55",
-"canvaskit/skwasm.js": "ea559890a088fe28b4ddf70e17e60052",
-"canvaskit/skwasm.js.symbols": "9fe690d47b904d72c7d020bd303adf16",
-"canvaskit/canvaskit.js.symbols": "27361387bc24144b46a745f1afe92b50",
-"canvaskit/skwasm.wasm": "1c93738510f202d9ff44d36a4760126b",
-"canvaskit/chromium/canvaskit.js.symbols": "f7c5e5502d577306fb6d530b1864ff86",
-"canvaskit/chromium/canvaskit.js": "8191e843020c832c9cf8852a4b909d4c",
-"canvaskit/chromium/canvaskit.wasm": "c054c2c892172308ca5a0bd1d7a7754b",
-"canvaskit/canvaskit.js": "728b2d477d9b8c14593d4f9b82b484f3",
-"canvaskit/canvaskit.wasm": "a37f2b0af4995714de856e21e882325c"};
+const RESOURCES = {
+  "flutter_bootstrap.js": "19d40ce7b041cd892476512c5572a010",
+  "version.json": "b9106a174e540fdff79e429cf52bd493",
+  "index.html": "5e5beefe8212d18676b0612b2c7284ca",
+  "/": "5e5beefe8212d18676b0612b2c7284ca",
+  "main.dart.js": "6f84235c2ed030887839dcd2d623577e",
+  "flutter.js": "83d881c1dbb6d6bcd6b42e274605b69c",
+  "favicon.png": "a28cd77663bc75fb6a311e7520b42ca3",
+  "icons/Icon-192.png": "c7995f92b2ae05c705c138a753141192",
+  "icons/Icon-maskable-192.png": "c7995f92b2ae05c705c138a753141192",
+  "icons/Icon-maskable-512.png": "eb72ad69b8cb4e54ff52e8517ff254e7",
+  "icons/Icon-512.png": "eb72ad69b8cb4e54ff52e8517ff254e7",
+  "manifest.json": "c768b19dbe8da1aaf813499295c2c21d",
+  "assets/AssetManifest.json": "2b697739566a68c44cd1696e1d6cbc44",
+  "assets/NOTICES": "ed5b9d186e4e090adb61908c0cd71b52",
+  "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
+  "assets/AssetManifest.bin.json": "c9ebd39a3e3d12b2b36846aaaf0ce083",
+  "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "825e75415ebd366b740bb49659d7a5c6",
+  "assets/packages/flutter_map/lib/assets/flutter_map_logo.png": "208d63cc917af9713fc9572bd5c09362",
+  "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
+  "assets/AssetManifest.bin": "1f301a2a9ded9d1a9c1e6facad179f32",
+  "assets/fonts/MaterialIcons-Regular.otf": "c90baa199ff43e38d053a12e507f858e",
+  "assets/assets/teams_logo/team_logo.png": "f8d693ff3fe78191a6320a65b55ce878",
+  "assets/assets/teams_logo/vepr.png": "21589ca74f33e9754ab3caa47c6883da",
+  "assets/assets/teams_logo/Setun.png": "aed749b9205a30e68926696c310cf6cb",
+  "assets/assets/teams_logo/grom%2520.png": "4dd74854136e6c7b4a031878990c4cc5",
+  "assets/assets/teams_logo/knights.jpg": "4b26ac037f777ae5cd686f39eb59a65b",
+  "assets/assets/arena_logo/reutovarena.jpg": "782ffa09cfcbe7ac25305d2d8753cc11",
+  "assets/assets/arena_logo/kolomna.jpg": "0273723000b690d4d9cd44d8765d8c5e",
+  "assets/assets/arena_logo/vershina.jpg": "6afa17d7258a33064bb6557bb4602b12",
+  "assets/assets/arena_logo/salut.jpg": "96408f80107753d6829e9964909a69db",
+  "assets/assets/arena_logo/arena.png": "095ea6e4fb0956e2d63e89cc122c5f1f",
+  "assets/assets/arena_logo/sporttex.jpg": "4d7a5109f9e6ebc6724890ca4954b15f",
+  "assets/assets/arena_logo/umka.jpg": "33c93fdc9e325fa5c0c933e5a396445a",
+  "assets/assets/hockey_puck/puck_128_w.png": "1c5a7248a4d9b7a02bcf4088a91cb17e",
+  "assets/assets/hockey_puck/puck48_w.png": "7755db529512b7ba66fd853537b5405f",
+  "assets/assets/hockey_puck/puck48_b.png": "7cfbc87745f6b154a666d7b0bb6b4287",
+  "assets/assets/hockey_puck/puck128_b.png": "387a80acfe4073063cc0799da16bfcca",
+  "assets/assets/translations/ru.json": "d92d82ef8c32008e10733c2c7e3e1f5e",
+  "assets/assets/translations/en.json": "ecba72c73367d4d84b6b1a7d8d4f5a2f",
+  "canvaskit/skwasm.js": "ea559890a088fe28b4ddf70e17e60052",
+  "canvaskit/skwasm.js.symbols": "9fe690d47b904d72c7d020bd303adf16",
+  "canvaskit/canvaskit.js.symbols": "27361387bc24144b46a745f1afe92b50",
+  "canvaskit/skwasm.wasm": "1c93738510f202d9ff44d36a4760126b",
+  "canvaskit/chromium/canvaskit.js.symbols": "f7c5e5502d577306fb6d530b1864ff86",
+  "canvaskit/chromium/canvaskit.js": "8191e843020c832c9cf8852a4b909d4c",
+  "canvaskit/chromium/canvaskit.wasm": "c054c2c892172308ca5a0bd1d7a7754b",
+  "canvaskit/canvaskit.js": "728b2d477d9b8c14593d4f9b82b484f3",
+  "canvaskit/canvaskit.wasm": "a37f2b0af4995714de856e21e882325c"
+};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
-"index.html",
-"flutter_bootstrap.js",
-"assets/AssetManifest.bin.json",
-"assets/FontManifest.json"];
+  "index.html",
+  "flutter_bootstrap.js",
+  "assets/AssetManifest.bin.json",
+  "assets/FontManifest.json"];
 
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
@@ -65,15 +67,15 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value, {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, { 'cache': 'reload' })));
     })
   );
 });
 // During activate, the cache is populated with the temp files downloaded in
 // install. If this service worker is upgrading from one with a saved
 // MANIFEST, then use this to retain unchanged resource files.
-self.addEventListener("activate", function(event) {
-  return event.waitUntil(async function() {
+self.addEventListener("activate", function (event) {
+  return event.waitUntil(async function () {
     try {
       var contentCache = await caches.open(CACHE_NAME);
       var tempCache = await caches.open(TEMP);
@@ -154,7 +156,7 @@ self.addEventListener("fetch", (event) => {
     return onlineFirst(event);
   }
   event.respondWith(caches.open(CACHE_NAME)
-    .then((cache) =>  {
+    .then((cache) => {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
         // lazily populate the cache only if the resource was successfully fetched.
