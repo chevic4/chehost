@@ -91,7 +91,7 @@
     "shedule_screen_tab_enumeration_event_training": "тренировка",
     "shedule_screen_tab_status_event_all": "все события",
     "shedule_screen_tab_users": "записалось",
-    "shedule_screen_slidable_participate_play": "хоккей",
+    "shedule_screen_slidable_participate_play": "иду",
     "shedule_screen_slidable_participate_noplay": "пасс",
     "shedule_screen_slidable_participate_dontknow": "решай",
     "shedule_screen_participate_status_igo": "участвую",
@@ -111,5 +111,9 @@
     "shedule_screen_event_org_preview_menu_participates_list": "список участников",
     "shedule_screen_event_org_preview_menu_participates_count": "записалось",
     "shedule_screen_event_level_event_txt": "уровень сложности",
-    "shedule_screen_event_place_adress_txt": "место проведения"
+    "shedule_screen_event_place_adress_txt": "место проведения",
+    "shedule_screen_event_place_adress_edit_menu": "изменить адрес мероприятия",
+    "shedule_screen_event_player_positions_txt_menu": "расстановка на мероприятие",
+    "shedule_screen_event_create_positions_txt_menu": "подготовить мероприятие",
+    "shedule_screen_event_create_positions_txt_describtion_menu": "назначить игровые роли, поделить на пятреки"
 }
